@@ -8,6 +8,7 @@
     --fonte-principal: 'Poppins',  sans-serif;
     --fonte-base: 16px;
     --fonte-pequena: 14px;
+    --fonte-media: 18px;
     --fonte-grande: 28px;
 
 }
@@ -53,13 +54,23 @@ p {
 ul li {
 
     font-family: var(--fonte-principal);
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-media);
 }
-
+.foto-karen{
+    width: 500px;
+    height: 500px;
+}
 .section {
     padding: 90px 0;
 }
-
+.icone-karen{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    
+    
+}
 .hero {
     background: linear-gradient(135deg, var(--verde), #7fcfcf);
     color: #fff;
