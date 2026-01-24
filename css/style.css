@@ -58,7 +58,7 @@ ul li {
 }
 .foto-karen{
     width: 500px;
-    height: 500px;
+    height: 450px;
 }
 .section {
     padding: 90px 0;
@@ -123,4 +123,5 @@ ul li {
 footer {
     background: var(--verde);
     color: #fff;
+
 }
