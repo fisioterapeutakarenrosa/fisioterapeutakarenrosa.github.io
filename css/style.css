@@ -1,0 +1,115 @@
+:root {
+    --verde: #5aaeb0;
+    --verde-claro: #e6f4f4;
+    --laranja: #f49b2c;
+    --branco: #ffffff;
+    
+    --texto: #2e2e2e;
+    --fonte-principal: 'Poppins',  sans-serif;
+    --fonte-base: 16px;
+    --fonte-pequena: 14px;
+    --fonte-grande: 28px;
+
+}
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+.icone-favicon {
+    border-radius: 80%;
+    width: 60x;
+    height: 60px;
+    
+}
+@font-face {
+  font-family: 'Swirly Canalope'; /* Name you will use in your CSS */
+  src: url('fonts/swirly-canalope-webfont.woff2') format('woff2'),
+       url('fonts/swirly-canalope-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.texto-cursivo{
+    
+    text-align: center;
+    font-family: 'Swirly Canalope', cursive, sans-serif;
+    
+}
+.texto-fonte-grande{
+    font-size: 42px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--texto);
+}
+
+p {
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-base);
+}
+
+ul li {
+
+    font-family: var(--fonte-principal);
+    font-size: var(--fonte-grande);
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.hero {
+    background: linear-gradient(135deg, var(--verde), #7fcfcf);
+    color: #fff;
+}
+
+.hero img {
+    border-radius: 20px;
+}
+
+.badge-site {
+    background: rgba(255, 255, 255, .2);
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.btn-whats {
+    background: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    padding: 14px 30px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 22px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, .08);
+}
+
+.bg-verde {
+    background: var(--verde);
+}
+
+.bg-verde-claro {
+    background: var(--verde-claro);
+}
+
+.bg-laranja {
+    background: var(--laranja);
+    color: #fff;
+}
+
+footer {
+    background: var(--verde);
+    color: #fff;
+}

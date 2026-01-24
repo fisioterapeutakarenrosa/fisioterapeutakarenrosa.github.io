@@ -9,80 +9,12 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-<link rel="icon" href="img/favicon.ico" type="image/png">
+  <link rel="icon" href="img/favicon.ico" type="image/png">
   <!-- Fonte -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-  <style>
-    :root {
-      --verde: #5aaeb0;
-      --verde-claro: #e6f4f4;
-      --laranja: #f49b2c;
-      --texto: #2e2e2e;
-    }
 
-    body {
-      font-family: 'Poppins', sans-serif;
-      color: var(--texto);
-    }
-
-    .section {
-      padding: 90px 0;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, var(--verde), #7fcfcf);
-      color: #fff;
-    }
-
-    .hero img {
-      border-radius: 20px;
-    }
-
-    .badge-site {
-      background: rgba(255, 255, 255, .2);
-      padding: 8px 18px;
-      border-radius: 30px;
-      font-weight: 600;
-      display: inline-block;
-    }
-
-    .btn-whats {
-      background: #25D366;
-      color: #fff;
-      border-radius: 50px;
-      padding: 14px 30px;
-      font-weight: 600;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .card {
-      border: none;
-      border-radius: 22px;
-      box-shadow: 0 12px 35px rgba(0, 0, 0, .08);
-    }
-
-    .bg-verde {
-      background: var(--verde);
-    }
-
-    .bg-verde-claro {
-      background: var(--verde-claro);
-    }
-
-    .bg-laranja {
-      background: var(--laranja);
-      color: #fff;
-    }
-
-    footer {
-      background: var(--verde);
-      color: #fff;
-    }
-  </style>
 </head>
 
 <body>
@@ -91,57 +23,62 @@
   <section class="hero section">
     <div class="container">
       <div class="row align-items-center g-5">
-        <div class="col-lg-6">
-          <span class="badge-site mb-3">Fisioterapia Humanizada</span>
-          <h1 class="fw-bold display-5">Karen Rosa</h1>
-          <h4>Fisioterapeuta • CREFITO 371335-F</h4>
-          <p class="lead mt-3">
-            Retome a sua independência ou a independência do seu familiar com um atendimento humanizado, personalizado e individualizado.
-          </p>
-          <a href="https://wa.me/5553991196232" class="btn-whats mt-3" target="_blank">
-            <i class="bi bi-whatsapp"></i> Agendar atendimento
-          </a>
-        </div>
         <div class="col-lg-6 text-center">
           <img src="img/logo.jpg" class="img-fluid">
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SOBRE -->
-  <section class="section">
-    <div class="container">
-      <div class="row align-items-center g-5">
         <div class="col-lg-6">
-          <img src="img/karen.jpg" class="img-fluid rounded-4">
-        </div>
-        <div class="col-lg-6">
-          <h2 class="fw-bold mb-3">E UM PRAZER TER VOCÊ AQUI!</h2>
-          <h2 class="fw-bold mb-3">Primeiramente, vou te contar um
-            pouco do meu trabalho e
-            qualificações:</h2>
-          <p>
-            Sou Fisioterapeuta Especializada em Gerontologia, minha paixão.
 
-            Trabalho a Domicílio a mais de 3 anos, reabilitando vidas no conforto do lar.
-            Também atendo em consultório e já atendi em hospitais e Lar de Idosos.
-            Possuo diversos cursos, entre eles:
+          <h1 class="fw-bold display-5 texto-cursivo texto-fonte-grande">Karen Rosa</h1>
+          <h1 class="texto-cursivo">Fisioterapeuta <br> CREFITO 371335-F</h1>
+          <p class="lead mt-3 text-center">
+            Retome a sua independência ou a independência do seu familiar
+            com um atendimento humanizado, personalizado e
+            individualizado.
           </p>
-
-          <ul>
-            <li>Pós-graduação em Gerontologia e Saúde da pessoa idosa.</li>
-            <li>Pós-graduação em traumato-ortopedia com ênfase em terapias manuais.</li>
-            <li>Especializada em coluna lombar.</li>
-            <li>Curso específico para atendimento a domicílio </li>
-            <li>Fisioterapia para Doenças Neurológicas Adultas.</li>
-
-          </ul>
-
-
+          <a href="https://wa.me/5553991196232" class="btn-whats mt-3 text-center">
+            <i class="bi bi-whatsapp"></i> Agendar atendimento
+          </a>
         </div>
+
       </div>
     </div>
+
+
+    <!-- SOBRE -->
+    <section class="section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="img/karen.jpg" class="img-fluid rounded-4">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="fw-bold mb-3 text-center">E UM PRAZER TER VOCÊ AQUI!</h2>
+            <h2 class="fw-bold mb-3 text-center">Primeiramente, vou te contar um
+              pouco do meu trabalho e
+              qualificações:</h2>
+            <p class="text-center">
+              Sou Fisioterapeuta Especializada em Gerontologia, minha paixão.
+
+              Trabalho a Domicílio a mais de 3 anos, reabilitando vidas no conforto do lar.
+              Também atendo em consultório e já atendi em hospitais e Lar de Idosos.
+              Possuo diversos cursos, entre eles:
+            </p>
+
+            <ul>
+              <li>Pós-graduação em Gerontologia e Saúde da pessoa idosa.</li>
+              <li>Pós-graduação em traumato-ortopedia com ênfase em terapias manuais.</li>
+              <li>Especializada em coluna lombar.</li>
+              <li>Flexibilidade</li>
+              <li>Curso específico para atendimento a domicílio </li>
+              <li>Fisioterapia para Doenças Neurológicas Adultas.</li>
+
+            </ul>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
   </section>
 
 
@@ -179,20 +116,22 @@
   <section class="section hero">
     <div class="container">
       <div class="row g-5">
-        <div class="col-lg-6">
-          <h2 class="fw-bold mb-3">O que é trabalhado durante os atendimentos?</h2>
+        <div class="col-lg-6 text-center">
+
+          <h2 class="fw-bold mb-3 text-left">O que é trabalhado durante os atendimentos?</h2>
+          <br>
           <p>
             Durante o atendimento que costuma ter
             em média 45min, trabalho todos os
             deficits do paciente, fortalecendo o que
             está fraco, ganhando o que foi perdido e
-            melhorando o que ele já possui. </p>
-          <p>
+            mantendo/melhorando o que ele já possui. </p>
+          <p><img src="img/logo-pequeno.jpg" class="img-fluid rounded-4 icone-favicon">
             Fortalecer-Ganhar-Melhorar.</p>
           <p>
-            São trabalhados exercícios aeróbicos ,
-            equilíbrio, marcha, flexibilidade,
-            fortalecimento muscular, dupla função,
+            São trabalhados exercícios
+            de equilíbrio, coordenação, marcha, flexibilidade,
+            fortalecimento muscular, dupla função, aeróbicos
             entre muitos outros que sejam
             necessários para alcançar os objetivos
             daquele paciente específico.
@@ -202,6 +141,7 @@
         <div class="col-lg-6 text-center">
           <img src="img/exercicios.png" class="img-fluid rounded-4">
         </div>
+
       </div>
     </div>
   </section>
@@ -210,9 +150,7 @@
   <section class="section bg-laranja">
     <div class="container">
       <div class="row align-items-center g-5">
-        <div class="col-lg-6 text-center">
-          <img src="img/equipamentos.png" class="img-fluid rounded-4 bg-white p-3">
-        </div>
+        
         <div class="col-lg-6">
           <h2 class="fw-bold mb-3">Equipamentos utilizados</h2>
           <p>
@@ -223,16 +161,19 @@
             <li>Ultrassom</li>
             <li>TENS</li>
             <li>Treino de marcha</li>
-            <li>Equipamentos para fortalecimento muscular</li>
+            <li>Fortalecimento muscular</li>
             <li>Liberação miofascial</li>
-            <li>Bolas, pesos, theraband e diversos outros equipamentos.</li>
+            <li>Bolas, pesos e acessórios terapêuticos</li>
           </ul>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img src="img/equipamentos.png" class="img-fluid rounded-4 bg-white p-3">
         </div>
       </div>
     </div>
   </section>
 
-  
+
 
   <!-- VALORES -->
   <section class="section hero text-center">
@@ -246,7 +187,7 @@
         <strong>Formas de pagamento:</strong> Pix e cartão.<br>
         Parcelamento disponível para pacotes a partir de <strong>10 sessões</strong>.
       </p>
-      <a href="https://wa.me/5553991196232" class="btn-whats mt-3" target="_blank">
+      <a href="https://wa.me/5553991196232" class="btn-whats mt-3">
         <i class="bi bi-whatsapp"></i> Consultar valores
       </a>
     </div>
@@ -261,7 +202,7 @@
 
         </div>
         <div class="col-lg-12 text-center">
-         
+
           <h2 class="fw-bold mb-3"> Retome a sua independência ou a
             independência do seu familiar.</h2>
 
@@ -283,52 +224,45 @@
         </div>
         <div class="col-lg-12 text-center">
 
-          
-          <h2 class="fw-bold mb-3">   Conheça algumas vantagens do
+
+          <h2 class="fw-bold mb-3"> Conheça algumas vantagens do
             atendimento a domicílio:</h2>
-        
+
           <img src="img/banner02.png" class="img-fluid rounded-4">
         </div>
       </div>
     </div>
     </div>
   </section>
-<section class="section text-center bg-verde-claro">
-  <div class="container">
-    <h2 class="fw-bold mb-3">Agende já a sua avaliação!</h2>
+  <section class="section text-center bg-verde-claro">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Agende já a sua avaliação!</h2>
 
-  
-    <div class="d-flex justify-content-center gap-4 fs-3">
 
-      <!-- WhatsApp -->
-      <a href="https://wa.me/5553991196232"
-         target="_blank"
-         class="text-success"
-         title="WhatsApp">
-        <i class="bi bi-whatsapp"></i>
-      </a>
+      <div class="d-flex justify-content-center gap-4 fs-3">
 
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/fisioterapeutakarenrosa"
-         target="_blank"
-         class="text-danger"
-         title="Instagram">
-        <i class="bi bi-instagram"></i>
-      </a>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/5553991196232" target="_blank" class="text-success" title="WhatsApp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
 
-      <!-- Facebook -->
-      <a href="https://www.facebook.com/profile.php?id=100090678382801&rdid=zonyVfMivoZtV0cY#"
-         target="_blank"
-         class="text-primary"
-         title="Facebook">
-        <i class="bi bi-facebook"></i>
-      </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/fisioterapeutakarenrosa" target="_blank" class="text-danger"
+          title="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/fisioterapeutakarenrosa" target="_blank" class="text-primary"
+          title="Facebook">
+          <i class="bi bi-facebook"></i>
+        </a>
+
+      </div>
+
 
     </div>
-
-    
-  </div>
-</section>
+  </section>
 
   <footer class="text-center py-4">
     <p class="mb-0">© 2026 Karen Rosa – Fisioterapia</p>
@@ -336,8 +270,4 @@
 
 </body>
 
-
 </html>
-
-
-
