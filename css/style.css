@@ -3,44 +3,77 @@
     --verde-claro: #e6f4f4;
     --laranja: #f49b2c;
     --branco: #ffffff;
-    
+
     --texto: #2e2e2e;
-    --fonte-principal: 'Poppins',  sans-serif;
+    --fonte-principal: 'Poppins', sans-serif;
     --fonte-base: 16px;
     --fonte-pequena: 14px;
     --fonte-media: 18px;
     --fonte-grande: 28px;
 
 }
-.text-left{
+
+/*INICIO IMAGENS*/
+.logo {
+   background-image: url(../img/logo.jpg);
+    background-size: 510px 320px;
+    background-position: center;
+    
+    height: 320px;
+    background-repeat: no-repeat;
+}
+
+.logo-pequeno {
+    background-image: url('../img/logo-karen.png');
+    background-size: 100%;
+    width: 45px;
+    height: 45px;
+}
+
+.alinhamento-imagem{
+    margin: 0 auto;
+    display: block;
+}
+
+.foto-karen {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 65px;
+}
+
+/*FIM IMAGENS*/
+
+
+.text-left {
     text-align: left;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
-.icone-favicon {
-    border-radius: 80%;
-    width: 60x;
-    height: 60px;
-    
-}
+
 @font-face {
-  font-family: 'Swirly Canalope'; /* Name you will use in your CSS */
-  src: url('fonts/swirly-canalope-webfont.woff2') format('woff2'),
-       url('fonts/swirly-canalope-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Swirly Canalope';
+    /* Name you will use in your CSS */
+    src: url('fonts/swirly-canalope-webfont.woff2') format('woff2'),
+        url('fonts/swirly-canalope-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-.texto-cursivo{
-    
+
+.texto-cursivo {
+
     text-align: center;
     font-family: 'Swirly Canalope', cursive, sans-serif;
-    
+
 }
-.texto-fonte-grande{
+
+.texto-fonte-grande {
     font-size: 42px;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--texto);
@@ -49,6 +82,7 @@ body {
 p {
     font-family: var(--fonte-principal);
     font-size: var(--fonte-base);
+    text-align: center;
 }
 
 ul li {
@@ -56,21 +90,15 @@ ul li {
     font-family: var(--fonte-principal);
     font-size: var(--fonte-media);
 }
-.foto-karen{
-    width: 500px;
-    height: 450px;
-}
+
+
+
 .section {
     padding: 90px 0;
 }
-.icone-karen{
-    display: block;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    
-    
-}
+
+
+
 .hero {
     background: linear-gradient(135deg, var(--verde), #7fcfcf);
     color: #fff;
@@ -123,4 +151,31 @@ ul li {
 footer {
     background: var(--verde);
     color: #fff;
+}
+
+
+
+
+
+
+@media (max-width: 400px) {
+
+    .foto-karen {
+    width: 420px;
+    height: 400px;
+}
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .foto-karen {
+   display: block;
+   margin: 0 auto;
+}
+
+
 }
