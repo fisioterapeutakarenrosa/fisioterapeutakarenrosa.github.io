@@ -166,16 +166,12 @@ footer {
 } 
 @media (max-width: 500px) {
 
-    .foto-karen {
-    width: 420px;
-    height: 400px;
-}
-
+    
     
 
 
 #video{
-    height:300px; max-width:300px; width:100%;}
+     width:100%;}
 }
 
 
@@ -190,6 +186,7 @@ footer {
 
 
 }
+
 
 
 
