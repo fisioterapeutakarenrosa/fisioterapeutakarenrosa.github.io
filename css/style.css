@@ -154,7 +154,8 @@ footer {
 }
 
 
-
+#video{
+    height:550px;}
 
 
 
@@ -166,6 +167,8 @@ footer {
 }
 
 
+#video{
+    height:400px;}
 }
 
 
@@ -176,6 +179,7 @@ footer {
    display: block;
    margin: 0 auto;
 }
+
 
 
 }
