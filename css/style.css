@@ -158,13 +158,20 @@ footer {
     height:550px;}
 
 
+@media (max-width: 380px) {
 
+    .foto-karen {
+    width: 380px;
+    height: 380px;
+} 
 @media (max-width: 500px) {
 
     .foto-karen {
     width: 420px;
     height: 400px;
 }
+
+    
 
 
 #video{
@@ -183,6 +190,7 @@ footer {
 
 
 }
+
 
 
 
