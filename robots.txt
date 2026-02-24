@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Bloquear arquivos desnecessários (opcional)
+Disallow: /video/
+
+# Sitemap
 Sitemap: https://fisioterapeutakarenrosa.github.io/sitemap.xml
