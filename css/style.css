@@ -15,10 +15,10 @@
 
 /*INICIO IMAGENS*/
 .logo {
-   background-image: url(../img/logo.jpg);
+    background-image: url(../img/logo.jpg);
     background-size: 510px 320px;
     background-position: center;
-    
+
     height: 320px;
     background-repeat: no-repeat;
 }
@@ -30,7 +30,7 @@
     height: 45px;
 }
 
-.alinhamento-imagem{
+.alinhamento-imagem {
     margin: 0 auto;
     display: block;
 }
@@ -154,24 +154,28 @@ footer {
 }
 
 
-#video{
-    height:550px;}
+#video {
+    height: 550px;
+}
 
 
 @media (max-width: 380px) {
 
     .foto-karen {
-    width: 380px;
-    height: 380px;
-} }
+        width: 380px;
+        height: 380px;
+    }
+}
+
 @media (max-width: 500px) {
 
-    
-    
 
 
-#video{
-     width:100%;}
+
+
+    #video {
+        width: 100%;
+    }
 }
 
 
@@ -179,19 +183,10 @@ footer {
 @media (max-width: 600px) {
 
     .foto-karen {
-   display: block;
-   margin: 0 auto;
-}
+        display: block;
+        margin: 0 auto;
+    }
 
 
 
 }
-
-
-
-
-
-
-
-
-
